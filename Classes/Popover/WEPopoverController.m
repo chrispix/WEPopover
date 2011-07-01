@@ -36,12 +36,6 @@
 @synthesize context;
 @synthesize passthroughViews;
 
-- (id)init {
-	if (self = [super init]) {
-	}
-	return self;
-}
-
 - (id)initWithContentViewController:(UIViewController *)viewController {
 	if ((self = [self init])) {
 		self.contentViewController = viewController;
