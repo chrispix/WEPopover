@@ -121,7 +121,7 @@
 	[contentViewController view];
 	
 	if (CGSizeEqualToSize(popoverContentSize, CGSizeZero)) {
-		popoverContentSize = contentViewController.contentSizeForViewInPopover;
+		popoverContentSize = contentViewController.preferredContentSize;
 	}
 	
 	CGRect displayArea = [self displayAreaForView:theView];
